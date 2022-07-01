@@ -1,0 +1,1 @@
+Este é meu primeiro exercicio html, com o link de algumas das minahs redes sociais incluso.
