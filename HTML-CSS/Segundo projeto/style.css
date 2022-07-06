@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    height: 100vh;
+}
+.phone-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone-photo img {
+    height: 700px;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-top: 30px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.flex-box:nth-child(1){
+    min-height: 280px;
+}
+.instagram-logo-photo {
+    width: 170px;
+}
+
+.profile-photo {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+.continue-btn {
+    background-color: #0095f6;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+.remove-account {
+    font-weight: bold;
+    color: #0095f6;
+    margin-top: ;
+}
+
+.flex-box:nth-child(2){
+    padding: 15px;
+}
+
+.flex-box p {
+    color: rgb(148, 147, 147);
+}
+
+.not-account {
+    margin-bottom: 5px;
+}
+
+.switch-signUp a {
+    font-weight: bold;
+    color: #0095f6;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download-btns img {
+    margin-top: 20px;
+    width: 140px;
+    height: 42px;
+    justify-content: space-evenly;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .landing-page {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: #ffffff;
+    }
+
+    .landing-page {
+        width: 90%;
+    }
+
+    .phone-photo {
+        display: none;
+    }
+
+    .landing-content{
+        width: 100%;
+    }
+
+
+    .flex-box{
+        border: none;
+    }
+}
