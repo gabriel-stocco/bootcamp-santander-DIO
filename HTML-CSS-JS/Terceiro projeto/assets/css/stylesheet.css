@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main-task {
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    width: 230px;
+}
+
+.text-input {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn {
+    background-color: lightcoral;
+    height: 40px;   
+    width: 50px;
+    border-radius: 10px;
+    font-weight: 600
+}
+
+.checks {
+    display: flex;
+}
+
+.box {
+    margin-right: 5px;
+}
+.checkboxTxt {
+    font-weight: 600;
+}
+.checkboxTxt::first-letter {
+    text-transform: uppercase;
+}
+
+.checkList {
+    min-width: 350px;
+}
