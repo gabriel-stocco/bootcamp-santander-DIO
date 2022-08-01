@@ -1,0 +1,16 @@
+<div class="card shadow-sm m-2 min-h">
+    <img class="bd-placeholder-img card-img-top" width="100%" [src]="livro.image" alt="">
+
+    <div class="card-body">
+        <p class="card-text"> {{livro.title}}</p>
+        <p class="card-text"> {{livro.subtitle}}</p>
+        <p class="card-text"> {{livro.price}}</p>
+
+        <div>
+            <a [href]="livro.url"><button class="btn btn-primary m-1">Comprar</button></a>
+            
+            <button class="btn btn-outline-primary">Detalhes</button>
+        </div>
+
+    </div>
+</div>

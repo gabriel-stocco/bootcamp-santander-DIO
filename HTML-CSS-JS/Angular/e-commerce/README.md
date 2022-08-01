@@ -1,0 +1,1 @@
+Projeto base feito como exercício para o curso de Angular. A estilização ainda precisa ser melhorada e a funcionalidade dos filtros ser incrementada.
